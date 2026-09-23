@@ -1,0 +1,28 @@
+# Environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Data
+data/transcripts/*
+!data/transcripts/.gitkeep
+data/summaries/*
+!data/summaries/.gitkeep
+data/logs/*
+!data/logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
